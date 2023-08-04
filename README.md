@@ -18,6 +18,27 @@
   </ol>
 </details>
 
+## Introducción
+
+Proyecto MLOps: Desarrollo de API y Modelo de Predicción
+¡Bienvenidos al emocionante mundo de MLOps! Este proyecto individual se encuentra en la apasionante etapa de Labs, donde asumirás el desafiante rol de un MLOps Engineer. Prepara tus herramientas y sumérgete en esta experiencia en la que explorarás el poder de la Ingeniería de MLOps en acción.
+
+Descripción General
+En esta aventura tecnológica, he llevado a cabo un profundo análisis de datos y una meticulosa transformación de los mismos. A través de un EDA (Exploratory Data Analysis) minucioso y un ETL (Extract, Transform, Load) eficiente, he dado forma a los datos para obtener valiosos conocimientos y preparar el terreno para etapas posteriores.
+
+Desarrollo de API con FastAPI
+Una de las piedras angulares de este proyecto es el desarrollo de una potente API utilizando el framework FastAPI. He ideado y construido seis funciones API cuidadosamente diseñadas para brindar acceso fluido a los datos procesados. Estas funciones no solo ofrecen información valiosa, sino que también representan una fusión perfecta de tecnología y diseño.
+
+Deployment Eficiente
+Pero no solo construimos, ¡también desplegamos! A través de la plataforma Render, he llevado nuestras funciones API desde el entorno local hasta la web. Cada función ahora está disponible para su uso, no importa dónde te encuentres. La tecnología no conoce fronteras, y nuestras funciones API tampoco.
+
+Modelo de Predicción Avanzado
+Además de nuestras funciones API, he incorporado un modelo de predicción que añade un toque de magia a todo el proyecto. Utilizando técnicas avanzadas de Machine Learning, he desarrollado un modelo capaz de realizar predicciones basadas en datos históricos. Esta característica agrega un nivel adicional de utilidad y sofisticación a nuestro ecosistema MLOps.
+
+Estoy emocionado de compartir contigo este viaje a través de la ingeniería de MLOps. Ya sea que estés aquí para explorar, aprender o inspirarte, este proyecto tiene algo para todos. Así que adelante, navega por las secciones, prueba nuestras funciones API y déjate sorprender por la magia de la predicción.
+
+¡Disfruta del recorrido y bienvenido al mundo de MLOps!
+
 ## ETL
 The ETL process was performed on the given dataset to prepare it for analysis and querying, following the steps below:
 1. To streamline the dataset and focus on relevant information, unnecessary columns including "video," "imdb_id," "adult," "original_title," "vote_count," "poster_path," and "homepage" were removed. 
