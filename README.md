@@ -7,9 +7,9 @@
   <summary>Tabla de contenido</summary>
   <ol>  
     <li><a href="#Introducción">Introduction</a></li>
-    <li><a href="#Objetivo">Objective</a></li>
-    <li><a href="#Scope">Scope</a></li>
-    <li><a href="#Tech Stack">Tech Stack</a></li>
+    <li><a href="#Objetivo">Objetivo</a></li>
+    <li><a href="#Ámbito-de-Proyecto:">Ámbito de Proyecto:</a></li>
+    <li><a href="#Pila-de-Tecnologías">Pila de Tecnologías</a></li>
     <li><a href="#ETL">ETL</a></li>
     <li><a href="#EDA">EDA</a></li>
     <li><a href="#funciones-api">Funciones API</a></li>
@@ -61,7 +61,7 @@ The project was developed following these key aspects:
 
 </div>
  
-## Tech Stack
+## Pila de Tecnologías
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -70,12 +70,9 @@ The project was developed following these key aspects:
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ## ETL
 The ETL process was performed on the given dataset to prepare it for analysis and querying, following the steps below:
