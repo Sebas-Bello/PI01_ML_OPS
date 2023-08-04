@@ -45,14 +45,13 @@ El objetivo central de este proyecto es desarrollar y desplegar un sistema de pr
 
 Este proyecto representa una inmersión completa en el campo de MLOps, abordando todas las etapas desde la transformación de datos hasta la implementación y el despliegue de soluciones de predicción de precios en un entorno dinámico.
 
-## Scope
-The project was developed following these key aspects:
-- Data Preprocessing: [ETL link](https://github.com/ksfajardo/PI01_ML_OPS/blob/main/ETLPI01.ipynb)
-- API Functions Development: [API Functions Development link](https://github.com/ksfajardo/PI01_ML_OPS/blob/main/FuncionesAPI.ipynb)
-- Exploratory Data Analysis: [EDA link](https://github.com/ksfajardo/PI01_ML_OPS/blob/main/EDA_ML.ipynb)
-- Machine Learning Model Development: [Machine Learning Development link](https://github.com/ksfajardo/PI01_ML_OPS/blob/main/MLmodel.ipynb)
-- API Development: [API Repository](https://github.com/ksfajardo/PI01_ML_OPS_API) (This is located in a different repository here in my github but this is purely to keep an order for myself)
-- API Deployment: [Deployed API link](https://moviesapp-oxeinkhcia-uc.a.run.app) (You can add "/docs" at the end of the link to go to the automatic documentation FastAPI creates)
+## Ámbito de Proyecto
+El proyecto se desarrolló siguiendo estos aspectos clave:
+- Análisis exploratorio de datos y Preprocesamiento de datos: [ETL link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/a34baaa93eaa58fec1ccb5d8235f019e38dfc6a4/EDA_ETL.ipynb)
+- Desarrollo de Funciones API: [API Functions Development link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/a34baaa93eaa58fec1ccb5d8235f019e38dfc6a4/EDA_ETL.ipynb)
+- Desarrollo de modelos de aprendizaje automático: [Machine Learning Development link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/4ec0ef5e0167ded1b25b711cd5e51134d4bd1121/Modelo%20ML.ipynb)
+- Desarrollo de API: [API Repository](https://github.com/Sebas-Bello/PI01_ML_OPS_API.git) (Este contenido está alojado en un repositorio aparte en mi GitHub, pero se incluye aquí solo con el propósito de mantener una estructura ordenada para mí)
+- Implementación de API: [Deployed API link](https://pi-ml-ops-nluo.onrender.com/docs#/) (Puedes añadir "/docs" al final del enlace para acceder a la documentación automática que FastAPI crea)
 </br>
 
 <div align="center">
