@@ -1,5 +1,5 @@
 # PI01_ML_OPS
-![header](https://capsule-render.vercel.app/api?type=waving&height=190&section=header&text=%20Machine%20Learning%20Operations%20(MLOps)%20Project&fontSize=30&&color=957DAD&fontColor=ffffff&fontAlignY=35)
+![header](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/1e2e87f593aa1b69a90b70ff70c0108c39cbeb84/Machine%20Learning%20Operations.mp4)
 
 
 ## Index 
