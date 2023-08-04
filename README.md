@@ -77,20 +77,3 @@ If you would like to see the video of me giving an overview of this project, cli
   
 </div>
 
-(In the video I talk in spanish)
-
-## Acknowledgment
-
-Here are a few people I would like to thank for their unwavering support throughout the development of this project: </br>
-
-First, to my beloved Full-Stack Developer boyfriend, William, who talked me out of using Render for my API and told me to go for something more challenging: Thank you, you were right. Docker and Google Cloud are indeed the GOAT. </br>
-
-Second, to my favorite artist, Taylor Swift: thank you for meeting me at midnight during every single day I spent developing this porject and keeping me company with your music while everybody else in my house slept. </br>
-
-And last but not least, to the amazing friends I have made at Henry: Here is to helping and lifting each other up whenever we need it! I had the most fun helping you get to the finish line with me.
-
-<div align="center">
-
-![wink](https://github.com/ksfajardo/PI01_ML_OPS/blob/main/taylor.gif)
-
-</div>
