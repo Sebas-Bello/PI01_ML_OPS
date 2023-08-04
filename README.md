@@ -1,5 +1,5 @@
 # PI01_ML_OPS
-![header](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/1e2e87f593aa1b69a90b70ff70c0108c39cbeb84/Machine%20Learning%20Operations.mp4)
+![wink](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/938ebe095c559a98118df50d8e47c9b7e3f8dfe2/MLOPS.gif)
 
 
 ## Index 
