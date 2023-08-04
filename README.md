@@ -20,7 +20,7 @@
 
 ## Introducción
 
-Proyecto MLOps: Desarrollo de API y Modelo de Predicción
+### Proyecto MLOps: Desarrollo de API y Modelo de Predicción
 ¡Bienvenidos al emocionante mundo de MLOps! Este proyecto individual se encuentra en la apasionante etapa de Labs, donde asumirás el desafiante rol de un MLOps Engineer. Prepara tus herramientas y sumérgete en esta experiencia en la que explorarás el poder de la Ingeniería de MLOps en acción.
 
 Descripción General
