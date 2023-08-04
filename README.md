@@ -2,21 +2,18 @@
 
 
 ## Índice 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLA DE CONTENIDO -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabla de contenido</summary>
   <ol>
-    <li><a href="#Index">Index</a></li>
-    <li><a href="#Introduction">Introduction</a></li>
-    <li><a href="#Objective">Objective</a></li>
-    <li><a href="#Scope">Scope</a></li>
-    <li><a href="#Tech Stack">Tech Stack</a></li>
+    <li><a href="#Índice">Index</a></li>
+    <li><a href="#Introducción">Introduction</a></li>
+    <li><a href="#Objetivo">Objective</a></li>
     <li><a href="#ETL">ETL</a></li>
     <li><a href="#EDA">EDA</a></li>
-    <li><a href="#API Functions">API Functions</a></li>
-    <li><a href="#Recommendation System">Recommendation System</a></li>
+    <li><a href="#Funciones API">API Functions</a></li>
+    <li><a href="#Modelo ML">Recommendation System</a></li>
     <li><a href="#Deployment">Deployment</a></li>
-    <li><a href="#Developer">Developer of the project</a></li>
     <li><a href="#Video">Video</a></li>
   </ol>
 </details>
