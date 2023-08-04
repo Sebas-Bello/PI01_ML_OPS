@@ -5,8 +5,7 @@
 <!-- TABLA DE CONTENIDO -->
 <details>
   <summary>Tabla de contenido</summary>
-  <ol>
-    <li><a href="#Índice">Index</a></li>
+  <ol>  
     <li><a href="#Introducción">Introduction</a></li>
     <li><a href="#Objetivo">Objective</a></li>
     <li><a href="#ETL">ETL</a></li>
@@ -25,6 +24,24 @@
 Estoy emocionado de compartir contigo este viaje a través de la **ingeniería de MLOps**. Ya sea que estés aquí para explorar, aprender o inspirarte, este proyecto tiene algo para todos. Así que adelante, navega por las secciones, prueba nuestras funciones API y déjate sorprender por la magia de la predicción.
 
 ***¡Disfruta del recorrido y bienvenido al mundo de MLOps!***
+
+## Objetivo
+
+El objetivo central de este proyecto es desarrollar y desplegar un sistema de predicción de precios de juegos, aprovechando un conjunto de datos completo. El proyecto se enfoca en lograr los siguientes objetivos específicos:
+
+- **Transformación y Limpieza de Datos:** Aplicar técnicas de Extracción, Transformación y Carga (ETL) para preprocesar y limpiar el conjunto de datos de juegos.
+
+- **Análisis Exploratorio de Datos (EDA):** Realizar un análisis exhaustivo de los datos para obtener ideas sobre los atributos de los juegos, como características, género y plataforma. Identificar patrones clave que influyan significativamente en los precios y descubrir relaciones que puedan aprovecharse para una predicción precisa.
+
+- **Desarrollo de API:** Diseñar e implementar un conjunto de funciones y una API que se integre perfectamente con el sistema de predicción de precios de juegos.
+
+- **Modelo ML:** Desarrollar un modelo de aprendizaje automático que utilice técnicas de regresión para predecir con precisión los precios de los juegos en función de sus atributos.
+
+- **Despliegue de la API:** Implementar la API del sistema de predicción de precios en un entorno de producción, garantizando su disponibilidad y accesibilidad para los usuarios. Aplicar mecanismos de escalabilidad adecuados para una experiencia de usuario fluida.
+
+- **Mejores Prácticas de MLOps:** Establecer una infraestructura eficiente de MLOps para gestionar y operar sin problemas todo el ecosistema.
+
+Este proyecto representa una inmersión completa en el campo de MLOps, abordando todas las etapas desde la transformación de datos hasta la implementación y el despliegue de soluciones de predicción de precios en un entorno dinámico.
 
 ## ETL
 The ETL process was performed on the given dataset to prepare it for analysis and querying, following the steps below:
