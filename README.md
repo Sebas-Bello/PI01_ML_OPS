@@ -20,11 +20,11 @@
 
 ## Introducción
 
-¡Bienvenidos al emocionante mundo de **MLOps!** Este proyecto individual se encuentra en la apasionante etapa de Labs para la carrera de Data Science en la academia *  SOY HENRY* donde asumiré el desafiante rol de un **MLOps Engineer**. Sumérgete en esta experiencia que te permitirá explorar de primera mano el impacto dinámico de la Ingeniería de MLOps en plena acción.
+¡Bienvenidos al emocionante mundo de **MLOps!** Este proyecto individual se encuentra en la apasionante etapa de Labs para la carrera de **Data Science en la academia SOY HENRY** donde asumiré el desafiante rol de un **MLOps Engineer**. Sumérgete en esta experiencia que te permitirá explorar de primera mano el impacto dinámico de la Ingeniería de MLOps en plena acción.
 
 Estoy emocionado de compartir contigo este viaje a través de la **ingeniería de MLOps**. Ya sea que estés aquí para explorar, aprender o inspirarte, este proyecto tiene algo para todos. Así que adelante, navega por las secciones, prueba nuestras funciones API y déjate sorprender por la magia de la predicción.
 
-*¡Disfruta del recorrido y bienvenido al mundo de MLOps!*
+***¡Disfruta del recorrido y bienvenido al mundo de MLOps!***
 
 ## ETL
 The ETL process was performed on the given dataset to prepare it for analysis and querying, following the steps below:
