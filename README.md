@@ -129,11 +129,11 @@ Este proyecto ejemplifica cómo aprovechar el aprendizaje automático para preve
 
 El algoritmo completo que utiliza la API se encuentra alojado en un archivo de Python llamado **my_model_ML.py** en el repositorio de la API. El proceso de desarrollo de dicho algoritmo se encuentra detallado en el repositorio denominado: [Modelo ML](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/05dcf22f0d7d8b1d323a3649461e48d717fa2dfa/Modelo%20ML.ipynb) en este mismo repositorio. En esta ubicación, encontrarás una inmersión profunda en la evolución del algoritmo, desde sus raíces conceptuales hasta su refinamiento y optimización, culminando en la implementación exitosa en el archivo **my_model_ML.py**. Este enfoque garantiza una comprensión completa del proceso y ofrece un recurso valioso para aquellos interesados en explorar más a fondo la lógica y la metodología detrás del algoritmo de recomendación.
 
-*Todo este proceso fue desarrollado de manera local en Visual Studio Code (VSCODE) utilizando Jupyter Notebook como plataforma principal. Para la implementación, aprovechamos la versatilidad de Python como lenguaje de programación, respaldado por las bibliotecas esenciales como numpy y pandas, que resultaron fundamentales para el procesamiento y manipulación eficiente de los datos.
+*Todo este proceso fue desarrollado de manera local en Visual Studio Code (VSCODE) utilizando Jupyter Notebook como plataforma principal. Para la implementación, aprovechamos la versatilidad de Python como lenguaje de programación, respaldado por las bibliotecas esenciales como numpy y pandas, que resultaron fundamentales para el procesamiento y manipulación eficiente de los datos.*
 
-Además, la incorporación de scikit-learn potenció nuestras capacidades de aprendizaje automático, proporcionando algoritmos y herramientas esenciales para la creación y evaluación de modelos.
+*Además, la incorporación de scikit-learn potenció nuestras capacidades de aprendizaje automático, proporcionando algoritmos y herramientas esenciales para la creación y evaluación de modelos.*
 
-Esta combinación sinérgica de tecnologías, desde el ambiente de desarrollo hasta las herramientas específicas, dio como resultado un proceso robusto y eficaz que abordó cada fase del proyecto con precisión y eficiencia, permitiendo la creación exitosa de un ecosistema completo y funcional.*
+*Esta combinación sinérgica de tecnologías, desde el ambiente de desarrollo hasta las herramientas específicas, dio como resultado un proceso robusto y eficaz que abordó cada fase del proyecto con precisión y eficiencia, permitiendo la creación exitosa de un ecosistema completo y funcional.*
 
 ## Deployment
 
