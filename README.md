@@ -46,6 +46,7 @@ El objetivo central de este proyecto es desarrollar y desplegar un sistema de pr
 Este proyecto representa una inmersión completa en el campo de MLOps, abordando todas las etapas desde la transformación de datos hasta la implementación y el despliegue de soluciones de predicción de precios en un entorno dinámico.
 
 ## Ámbito de Proyecto
+
 El proyecto se desarrolló siguiendo estos aspectos clave:
 - Análisis exploratorio de datos y Preprocesamiento de datos: [EDA y ETL link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/a34baaa93eaa58fec1ccb5d8235f019e38dfc6a4/EDA_ETL.ipynb)
 - Desarrollo de Funciones API: [Desarrollo de Funciones link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/e42539c768d2142e85f4af3b72a5e4f16786b76f/Funciones%20API.ipynb)
@@ -61,6 +62,7 @@ El proyecto se desarrolló siguiendo estos aspectos clave:
 </div>
  
 ## Pila de Tecnologías
+
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -73,20 +75,31 @@ El proyecto se desarrolló siguiendo estos aspectos clave:
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-## ETL
-The ETL process was performed on the given dataset to prepare it for analysis and querying, following the steps below:
-1. To streamline the dataset and focus on relevant information, unnecessary columns including "video," "imdb_id," "adult," "original_title," "vote_count," "poster_path," and "homepage" were removed. 
-2. Null values in the "revenue" and "budget" fields were replaced with 0, ensuring consistency in calculations. Null values in the "release date" field were removed to ensure data integrity.
-3. To standardize the format, dates were transformed into the YYYY-mm-dd format. Moreover, a new column called "release_year" was created to extract the year from the release date, providing a separate field for temporal analysis.
-4. A crucial metric, return on investment, was computed by dividing the revenue by the budget for each entry, resulting in a new column called "return." When data was unavailable to calculate the return, it was assigned a value of 0, maintaining consistency in the dataset.
-5. The dataset contained nested fields such as "belongs_to_collection" and "production_companies," which needed to be unnested for easier data manipulation. 
-
-All of this was developed locally in VSCODE using Jupyter Notebook, python, numpy and pandas.
-
 ## EDA
+
 The resulting data from the ETL was used to conduct the Exploratory Data Analysis. All of the columns were analyzed with the help of the ydata_profiling library tool ProfileReport. Decisions like what to do with missing values, outliers and more were taken. Identifying patterns and relevant attributes was a vital step in setting the foundation for the subsequent development of the API Functions and the Recommendation System.
 
 All of this was developed locally in VSCODE using Jupyter Notebook, python, numpy, pandas, matplotlib, seaborn, wordcolud and ydata_profiling.
+
+## ETL
+
+1. Durante la fase de transformación y limpieza de datos (ETL), se han aplicado una serie de pasos esenciales para garantizar la calidad y coherencia de los datos. Estas acciones buscan preparar el conjunto de datos de manera óptima para su análisis posterior y para ser consumido por la API que se está desarrollando.
+
+2. Eliminación de Duplicados y Asignación de Índice Numérico: Para asegurar la unicidad de las filas en el conjunto de datos, se han eliminado los duplicados. Además, se ha asignado un índice numérico secuencial a cada fila. Esta estrategia facilita la manipulación y el análisis eficiente de los datos.
+
+3. Filtrado de Fechas Inválidas: Se ha realizado un filtrado riguroso en la columna 'release_date' para identificar y cuantificar los valores atípicos que no cumplen con el formato aaaa-mm-dd. Esto proporciona una comprensión clara de la calidad de los datos y posibles problemas en las fechas de lanzamiento.
+
+4. Creación de Columna de Año: Como parte de la transformación, se ha creado una nueva columna llamada "año_release_date". Mediante el uso de expresiones regulares, se ha extraído el año de la columna "release_date". Esta columna es crucial para los endpoints de la API y proporciona un filtro eficaz para las solicitudes basadas en el año.
+
+5. Gestión de Valores Nulos: Dado que los valores nulos en la columna "año_release_date" podrían afectar negativamente el funcionamiento de la API, se han eliminado de manera consciente. Esto garantiza que solo se consideren registros con años válidos al llamar a la API, previniendo resultados inesperados y errores en el procesamiento de datos.
+
+6. Identificación de Outliers: Para asegurar la integridad de la columna "año_release_date", se ha revisado cuidadosamente mediante la ordenación y filtrado de los primeros y últimos valores. Esta inspección visual permite identificar posibles outliers o valores incoherentes que podrían requerir tratamiento adicional para su corrección o eliminación.
+
+7. Eliminación de Registros Incoherentes: La eliminación de registros incoherentes es una medida importante para mantener la calidad de los datos. En caso de encontrar registros con valores nulos en todas las columnas relevantes para la API, se ha procedido a eliminarlos. Esto asegura que los análisis futuros se basen en datos confiables y coherentes.
+
+8. El proceso de ETL ha resultado en un conjunto de datos limpio, coherente y optimizado para el análisis y la implementación en la API. La atención meticulosa a cada paso garantiza que los resultados sean confiables y útiles para futuras operaciones y cálculos.
+
+Todo esto fue desarrollado localmente en VSCODE utilizando Jupyter Notebook, python, numpy y pandas.
 
 ## Funciones API
 In this part of the project, the requested endpoints were developed as python functions in a Jupyter Notebook file. After installing FastAPI and uvicorn, a [main.py](https://github.com/ksfajardo/PI01_ML_OPS_API/blob/main/utils/functions.py) file was created with the structure needed to deploy the endpoints, I tested this locally on the uvicorn service in the port 8000 (the main.py file only has the declaration of the endpoints, there is another file called [funciones.py](https://github.com/ksfajardo/PI01_ML_OPS_API/blob/main/utils/functions.py) in which the code of the functions is located and grabbed by the endpoint upon deployment). These functions take as data source the csv file resulting from the EDA. 
