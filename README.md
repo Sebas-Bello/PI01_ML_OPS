@@ -152,7 +152,8 @@ Luego de completar la implementación de **main.py** y demás archivos que compo
 *Con la culminación exitosa de estos pasos, la API que se había construido y desarrollado con dedicación y precisión ahora está completamente preparada y lista para ser consumida. La combinación de todas estas etapas ha permitido llevar el proyecto desde su fase inicial hasta un estado funcional y accesible, donde los usuarios pueden aprovechar plenamente las funciones y capacidades de la API de manera confiable y eficiente.*
 
 ## Video
-If you would like to see the video of me giving an overview of this project, click on the YouTube logo below:
+
+Si deseas ver el video donde proporciono una visión general de este proyecto, simplemente haz clic en el logotipo de YouTube a continuación:
 
 <div align="center">
   
