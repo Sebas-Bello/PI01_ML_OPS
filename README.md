@@ -107,17 +107,33 @@ Este proceso integral, que abarcó desde la transformación de datos hasta el an
 
 ## Funciones API
 
-En esta fase del proyecto, se llevaron a cabo el desarrollo de los puntos finales solicitados mediante funciones en Python, dentro de un archivo de Jupyter Notebook. Tras la instalación de FastAPI y uvicorn, se creó un archivo [main.py](https://github.com/Sebas-Bello/PI01_ML_OPS_API/blob/9dcc0729126f97b70c01153f4be5f4203a967626/main.py) con la estructura necesaria para desplegar los puntos finales. Realicé pruebas de esta implementación a nivel local, utilizando el servicio uvicorn en el puerto 8000 (cabe destacar que el archivo main.py únicamente contiene la declaración de los puntos finales; el código de las funciones se encuentra en otro archivo llamado [funciones.py](https://github.com/Sebas-Bello/PI01_ML_OPS_API/blob/9dcc0729126f97b70c01153f4be5f4203a967626/Funciones/my_functions.py) este código es invocado por el punto final al momento del despliegue.
+En esta fase del proyecto, se llevaron a cabo el desarrollo de los puntos finales solicitados mediante funciones en Python, dentro de un archivo de Jupyter Notebook. Tras la instalación de FastAPI y uvicorn, se creó un archivo [main.py](https://github.com/Sebas-Bello/PI01_ML_OPS_API/blob/9dcc0729126f97b70c01153f4be5f4203a967626/main.py) con la estructura necesaria para desplegar los puntos finales. Realicé pruebas de esta implementación a nivel local, utilizando el servicio uvicorn en el puerto 8000 (cabe destacar que el archivo main.py únicamente contiene la declaración de los puntos finales; el código de las funciones se encuentra en otro archivo llamado [my_functions.py](https://github.com/Sebas-Bello/PI01_ML_OPS_API/blob/9dcc0729126f97b70c01153f4be5f4203a967626/Funciones/my_functions.py) este código es invocado por el punto final al momento del despliegue.
 
 Estas funciones se alimentan con datos del archivo CSV resultante del análisis exploratorio de datos (EDA) realizado anteriormente. 
 
-Todo este proceso de desarrollo se llevó a cabo de manera local en Visual Studio Code (VSCODE), haciendo uso de Jupyter Notebook, Python, numpy, pandas, FastAPI y uvicorn. Esta amalgama de herramientas tecnológicas permitió dar vida a los puntos finales de la API, desplegando de manera exitosa el acceso a las funciones y capacidades desarrolladas en el proyecto.
+*Todo este proceso de desarrollo se llevó a cabo de manera local en Visual Studio Code (VSCODE), haciendo uso de Jupyter Notebook, Python, numpy, pandas, FastAPI y uvicorn. Esta amalgama de herramientas tecnológicas permitió dar vida a los puntos finales de la API, desplegando de manera exitosa el acceso a las funciones y capacidades desarrolladas en el proyecto.*
 
 ## Modelo ML
 
-The recommendation system was developed in a Jupyter Notebook file. The NLP tool RAKE was used to generate keywords from the overview column. These keywords were combined with the genres_name and title columns into a single string for each film. CountVectorizer was then used to calculate the cosine similarity matrix. Based on the similarity scores provided by the matrix, the algorithm recommends the top 5 most similar movies to the one provided by the user as input. This model was also made available as an endpoint on the API. The completed algorithm the API uses is located in a python file called recomendacion.py in the API repository. The development of the algorithm is on this repository: [Machine Learning Development](https://github.com/ksfajardo/PI01_ML_OPS/blob/main/MLmodel.ipynb) on this repository.
+En cuanto a la **Construcción del Modelo:**
 
-All of this was developed locally in VSCODE using Jupyter Notebook, python, numpy, pandas, rake-nltk and scikit-learn.
+Nos sumergimos en la implementación de un enfoque de ensamblado, específicamente adoptamos el algoritmo de Bagging (Bootstrap Aggregating) para la tarea de predicción. La destreza del modelo radica en su entrenamiento basado en datos históricos, capturando características fundamentales como el género, el acceso temprano y otras métricas clave de cada videojuego. A través de este proceso, logramos generar predicciones precisas y confiables.
+
+En el siguiente paso, **la Predicción de Precios y Evaluación:**
+
+Una vez que nuestro modelo ha sido rigurosamente entrenado, desplegamos su capacidad para pronosticar precios. Dada una serie de características específicas de un videojuego, el modelo genera una predicción del precio esperado con notable precisión. No solo nos detenemos aquí: calculamos el precio promedio para videojuegos pertenecientes a géneros particulares. Además, evaluamos el rendimiento de nuestro modelo utilizando una métrica crucial: el error cuadrático medio (RMSE), aplicado a los datos de prueba. Este paso garantiza la confiabilidad y eficacia de nuestras estimaciones.
+
+Finalmente, en las **Conclusiones:**
+
+Este proyecto ejemplifica cómo aprovechar el aprendizaje automático para prever los precios de los videojuegos, basándonos en sus atributos distintivos. Nuestra atención especial en los géneros y el estado de acceso temprano resalta la habilidad del modelo para generar estimaciones de precios altamente personalizadas y ajustadas a diferentes categorías de videojuegos. Cada fase de este proceso, desde la construcción del modelo hasta la predicción y la evaluación, contribuye a una solución que no solo es poderosa, sino también altamente precisa y adaptada a las necesidades de la industria de los videojuegos.
+
+El algoritmo completo que utiliza la API se encuentra alojado en un archivo de Python llamado **my_model_ML.py** en el repositorio de la API. El proceso de desarrollo de dicho algoritmo se encuentra detallado en el repositorio denominado: [Modelo ML](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/05dcf22f0d7d8b1d323a3649461e48d717fa2dfa/Modelo%20ML.ipynb) en este mismo repositorio. En esta ubicación, encontrarás una inmersión profunda en la evolución del algoritmo, desde sus raíces conceptuales hasta su refinamiento y optimización, culminando en la implementación exitosa en el archivo **my_model_ML.py**. Este enfoque garantiza una comprensión completa del proceso y ofrece un recurso valioso para aquellos interesados en explorar más a fondo la lógica y la metodología detrás del algoritmo de recomendación.
+
+*Todo este proceso fue desarrollado de manera local en Visual Studio Code (VSCODE) utilizando Jupyter Notebook como plataforma principal. Para la implementación, aprovechamos la versatilidad de Python como lenguaje de programación, respaldado por las bibliotecas esenciales como numpy y pandas, que resultaron fundamentales para el procesamiento y manipulación eficiente de los datos.
+
+Además, la incorporación de scikit-learn potenció nuestras capacidades de aprendizaje automático, proporcionando algoritmos y herramientas esenciales para la creación y evaluación de modelos.
+
+Esta combinación sinérgica de tecnologías, desde el ambiente de desarrollo hasta las herramientas específicas, dio como resultado un proceso robusto y eficaz que abordó cada fase del proyecto con precisión y eficiencia, permitiendo la creación exitosa de un ecosistema completo y funcional.*
 
 ## Deployment
 
