@@ -93,7 +93,7 @@ Durante la fase de transformación y limpieza de datos (ETL), se han aplicado un
 
 El proceso de ETL ha resultado en un conjunto de datos limpio, coherente y optimizado para el análisis y la implementación en la API. La atención meticulosa a cada paso garantiza que los resultados sean confiables y útiles para futuras operaciones y cálculos.
 
-*Todas estas etapas se llevaron a cabo de manera local en Visual Studio Code (VSCODE), empleando Jupyter Notebook como nuestro entorno principal. Para la implementación de cada paso, contamos con la potencia de Python como lenguaje de programación, respaldado por las versátiles bibliotecas numpy y pandas, que fueron fundamentales para la manipulación y transformación eficiente de los datos. Estas herramientas esenciales se combinaron hábilmente para crear un flujo de trabajo fluido y eficaz, permitiendo que el proyecto tomara forma de manera coherente y organizada.*
+*Todas estas etapas se llevaron a cabo de manera local en **Visual Studio Code (VSCODE)**, empleando **Jupyter Notebook** como nuestro entorno principal. Para la implementación de cada paso, contamos con la potencia de **Python** como lenguaje de programación, respaldado por las versátiles bibliotecas **numpy y pandas**, que fueron fundamentales para la manipulación y transformación eficiente de los datos. Estas herramientas esenciales se combinaron hábilmente para crear un flujo de trabajo fluido y eficaz, permitiendo que el proyecto tomara forma de manera coherente y organizada.*
 
 ## EDA
 
@@ -103,7 +103,7 @@ A medida que se desentrañaban los entresijos de los datos, se tomaron decisione
 
 Este proceso integral, que abarcó desde la transformación de datos hasta el análisis exploratorio y la construcción de soluciones tecnológicas avanzadas, encapsula la esencia misma del proyecto. Cada paso contribuyó de manera sinérgica para dar vida a una plataforma sólida y versátil, preparada para ofrecer recomendaciones precisas y una experiencia de usuario excepcional.
 
-*Todo este proceso fue desarrollado localmente en Visual Studio Code (VSCODE) utilizando Jupyter Notebook como nuestro entorno de trabajo principal. La combinación de herramientas tecnológicas que empleamos incluye Python como lenguaje de programación, junto con bibliotecas esenciales como numpy y pandas para la manipulación eficiente de datos. Además, utilizamos matplotlib y seaborn para la creación de visualizaciones gráficas impactantes, que nos permitieron revelar patrones y tendencias ocultas en los datos de manera efectiva.*
+*Todo este proceso fue desarrollado localmente en **Visual Studio Code (VSCODE)** utilizando **Jupyter Notebook** como nuestro entorno de trabajo principal. La combinación de herramientas tecnológicas que empleamos incluye **Python** como lenguaje de programación, junto con bibliotecas esenciales como **numpy y pandas** para la manipulación eficiente de datos. Además, utilizamos **matplotlib y seaborn** para la creación de visualizaciones gráficas impactantes, que nos permitieron revelar patrones y tendencias ocultas en los datos de manera efectiva.*
 
 ## Funciones API
 
@@ -111,7 +111,7 @@ En esta fase del proyecto, se llevaron a cabo el desarrollo de los puntos finale
 
 Estas funciones se alimentan con datos del archivo CSV resultante del análisis exploratorio de datos (EDA) realizado anteriormente. 
 
-*Todo este proceso de desarrollo se llevó a cabo de manera local en Visual Studio Code (VSCODE), haciendo uso de Jupyter Notebook, Python, numpy, pandas, FastAPI y uvicorn. Esta amalgama de herramientas tecnológicas permitió dar vida a los puntos finales de la API, desplegando de manera exitosa el acceso a las funciones y capacidades desarrolladas en el proyecto.*
+*Todo este proceso de desarrollo se llevó a cabo de manera local en **Visual Studio Code (VSCODE)**, haciendo uso de **Jupyter Notebook**, **Python, numpy, pandas, FastAPI y uvicorn**. Esta amalgama de herramientas tecnológicas permitió dar vida a los puntos finales de la API, desplegando de manera exitosa el acceso a las funciones y capacidades desarrolladas en el proyecto.*
 
 ## Modelo ML
 
@@ -129,9 +129,9 @@ Este proyecto ejemplifica cómo aprovechar el aprendizaje automático para preve
 
 El algoritmo completo que utiliza la API se encuentra alojado en un archivo de Python llamado **my_model_ML.py** en el repositorio de la API. El proceso de desarrollo de dicho algoritmo se encuentra detallado en el repositorio denominado: [Modelo ML](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/05dcf22f0d7d8b1d323a3649461e48d717fa2dfa/Modelo%20ML.ipynb) en este mismo repositorio. En esta ubicación, encontrarás una inmersión profunda en la evolución del algoritmo, desde sus raíces conceptuales hasta su refinamiento y optimización, culminando en la implementación exitosa en el archivo **my_model_ML.py**. Este enfoque garantiza una comprensión completa del proceso y ofrece un recurso valioso para aquellos interesados en explorar más a fondo la lógica y la metodología detrás del algoritmo de recomendación.
 
-*Todo este proceso fue desarrollado de manera local en Visual Studio Code (VSCODE) utilizando Jupyter Notebook como plataforma principal. Para la implementación, aprovechamos la versatilidad de Python como lenguaje de programación, respaldado por las bibliotecas esenciales como numpy y pandas, que resultaron fundamentales para el procesamiento y manipulación eficiente de los datos.*
+*Todo este proceso fue desarrollado de manera local en **Visual Studio Code (VSCODE)** utilizando **Jupyter Notebook** como plataforma principal. Para la implementación, aprovechamos la versatilidad de **Python** como lenguaje de programación, respaldado por las bibliotecas esenciales como **numpy y pandas**, que resultaron fundamentales para el procesamiento y manipulación eficiente de los datos.*
 
-*Además, la incorporación de scikit-learn potenció nuestras capacidades de aprendizaje automático, proporcionando algoritmos y herramientas esenciales para la creación y evaluación de modelos.*
+*Además, la incorporación de **scikit-learn** potenció nuestras capacidades de aprendizaje automático, proporcionando algoritmos y herramientas esenciales para la creación y evaluación de modelos.*
 
 *Esta combinación sinérgica de tecnologías, desde el ambiente de desarrollo hasta las herramientas específicas, dio como resultado un proceso robusto y eficaz que abordó cada fase del proyecto con precisión y eficiencia, permitiendo la creación exitosa de un ecosistema completo y funcional.*
 
