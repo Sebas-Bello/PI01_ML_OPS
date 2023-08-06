@@ -58,7 +58,7 @@ El proyecto se desarrolló siguiendo estos aspectos clave:
 <div align="center">
   
 ![MLOPS](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/cce65265af6c5ae8848b58da052922c105ed99d7/%C3%81mbito%20de%20Proyecto.png)
-<img src="https://github.com/Sebas-Bello/PI01_ML_OPS/blob/cce65265af6c5ae8848b58da052922c105ed99d7/%C3%81mbito%20de%20Proyecto.png" alt="MLOPS" width="2560">
+<img src="https://github.com/Sebas-Bello/PI01_ML_OPS/blob/cce65265af6c5ae8848b58da052922c105ed99d7/%C3%81mbito%20de%20Proyecto.png" alt="MLOPS" width="3840">
 
 
 </div>
