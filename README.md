@@ -52,7 +52,7 @@ El proyecto se desarrolló siguiendo estos aspectos clave:
 - Desarrollo de Funciones API: [Desarrollo de Funciones link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/e42539c768d2142e85f4af3b72a5e4f16786b76f/Funciones%20API.ipynb)
 - Desarrollo de modelos de aprendizaje automático: [Machine Learning Desarrollo link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/4ec0ef5e0167ded1b25b711cd5e51134d4bd1121/Modelo%20ML.ipynb)
 - Desarrollo de API: [API Repositorio](https://github.com/Sebas-Bello/PI01_ML_OPS_API.git) (Este contenido está alojado en un repositorio aparte en mi GitHub, pero se incluye aquí solo con el propósito de mantener una estructura ordenada para mí)
-- Implementación de API: [Deployed API link](https://pi-ml-ops-nluo.onrender.com/docs#/)
+- Implementación de API: [Deployed API link](https://pi-ml-ops-1-2v8u.onrender.com/docs#/)
 </br>
 
 <div align="center">
@@ -147,7 +147,7 @@ Luego de completar la implementación de **main.py** y demás archivos que compo
 
 **4. Generación de Lista de Dependencias (Pip Freeze):** Se generó una lista de las dependencias y versiones específicas utilizadas en el entorno virtual. Esta lista proporcionó un registro claro y conciso de las bibliotecas que respaldaban la API, simplificando la gestión y el mantenimiento. [requierements.txt](https://github.com/Sebas-Bello/PI01_ML_OPS_API/blob/9dcc0729126f97b70c01153f4be5f4203a967626/requirements.txt)
 
-**5. Experiencia Render:** A través de Render, se llevaron a cabo los pasos necesarios para desplegar la API. Render proporcionó una plataforma eficiente y confiable para implementar aplicaciones, asegurando una experiencia de usuario optimizada y accesible. Render implementa la aplicación y genera un enlace para acceder a la [API en ejecución](https://pi-ml-ops-nluo.onrender.com). **(Puedes agregar "/docs" al final del enlace para acceder a la documentación automática creada por FastAPI. Esto te brindará una interfaz interactiva y detallada que describe todos los endpoints, métodos y parámetros disponibles en la API de manera clara y concisa.)**
+**5. Experiencia Render:** A través de Render, se llevaron a cabo los pasos necesarios para desplegar la API. Render proporcionó una plataforma eficiente y confiable para implementar aplicaciones, asegurando una experiencia de usuario optimizada y accesible. Render implementa la aplicación y genera un enlace para acceder a la [API en ejecución](https://pi-ml-ops-1-2v8u.onrender.com). **(Puedes agregar "/docs" al final del enlace para acceder a la documentación automática creada por FastAPI. Esto te brindará una interfaz interactiva y detallada que describe todos los endpoints, métodos y parámetros disponibles en la API de manera clara y concisa.)**
 
 *Con la culminación exitosa de estos pasos, la API que se había construido y desarrollado con dedicación y precisión ahora está completamente preparada y lista para ser consumida. La combinación de todas estas etapas ha permitido llevar el proyecto desde su fase inicial hasta un estado funcional y accesible, donde los usuarios pueden aprovechar plenamente las funciones y capacidades de la API de manera confiable y eficiente.*
 
@@ -157,7 +157,7 @@ Si deseas ver el video donde proporciono una visión general de este proyecto, s
 
 <div align="center">
   
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=B-hJy58UnNY)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/3TO3HKPmoSA)
   
 </div>
 
