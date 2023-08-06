@@ -157,7 +157,7 @@ Si deseas ver el video donde proporciono una visión general de este proyecto, s
 
 <div align="center">
   
-[![YouTube](https://youtu.be/kBy6X4j6KVk)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/kBy6X4j6KVk)
   
 </div>
 
