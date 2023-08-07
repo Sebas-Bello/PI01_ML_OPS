@@ -50,7 +50,7 @@ Este proyecto representa una inmersión completa en el campo de MLOps, abordando
 El proyecto se desarrolló siguiendo estos aspectos clave:
 - Análisis exploratorio de datos y Preprocesamiento de datos: [EDA y ETL link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/a34baaa93eaa58fec1ccb5d8235f019e38dfc6a4/EDA_ETL.ipynb)
 - Desarrollo de Funciones API: [Desarrollo de Funciones link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/24a6418c0f938539f9076c0278e0facfce9acae4/Funciones%20API.ipynb)
-- Desarrollo de modelos de aprendizaje automático: [Machine Learning Desarrollo link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/4ec0ef5e0167ded1b25b711cd5e51134d4bd1121/Modelo%20ML.ipynb)
+- Desarrollo de modelos de aprendizaje automático: [Machine Learning Desarrollo link](https://github.com/Sebas-Bello/PI01_ML_OPS/blob/6eb8255b93e9f06597dc4ced7f1bf88ea0d51c4a/Modelo%20ML.ipynb)
 - Desarrollo de API: [API Repositorio](https://github.com/Sebas-Bello/PI01_ML_OPS_API.git) (Este contenido está alojado en un repositorio aparte en mi GitHub, pero se incluye aquí solo con el propósito de mantener una estructura ordenada para mí)
 - Implementación de API: [Deployed API link](https://pi-ml-ops-1-2v8u.onrender.com/docs#/)
 </br>
