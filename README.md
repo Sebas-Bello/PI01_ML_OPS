@@ -8,8 +8,8 @@
   <ol>  
     <li><a href="#Introducción">Introducción</a></li>
     <li><a href="#Objetivo">Objetivo</a></li>
-    <li><a href="#Ámbito-de-Proyecto">Ámbito de Proyecto</a></li>
-    <li><a href="#Pila-de-Tecnologías">Pila de Tecnologías</a></li>
+    <li><a href="#Ambito-de-Proyecto">Ámbito de Proyecto</a></li>
+    <li><a href="#Pila-de-Tecnologias">Pila de Tecnologías</a></li>
     <li><a href="#ETL">ETL</a></li>
     <li><a href="#EDA">EDA</a></li>
     <li><a href="#funciones-api">Funciones API</a></li>
