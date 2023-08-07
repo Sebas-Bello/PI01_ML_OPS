@@ -6,7 +6,7 @@
 <details>
   <summary>Tabla de contenido</summary>
   <ol>  
-    <li><a href="#Introducción">Introduction</a></li>
+    <li><a href="#Introducción">Introducción</a></li>
     <li><a href="#Objetivo">Objetivo</a></li>
     <li><a href="#Ámbito-de-Proyecto">Ámbito de Proyecto</a></li>
     <li><a href="#Pila-de-Tecnologías">Pila de Tecnologías</a></li>
