@@ -83,7 +83,7 @@ Durante la fase de transformación y limpieza de datos (ETL), se han aplicado un
 
 **2. Filtrado de Fechas Inválidas:** Se ha realizado un filtrado riguroso en la columna 'release_date' para identificar y cuantificar los valores atípicos que no cumplen con el formato aaaa-mm-dd. Esto proporciona una comprensión clara de la calidad de los datos y posibles problemas en las fechas de lanzamiento.
 
-**3. Creación de Columna de Año:** Como parte de la transformación, se ha creado una nueva columna llamada "año_release_date". Mediante el uso de expresiones regulares, se ha extraído el año de la columna "release_date". Esta columna es crucial para los endpoints de la API y proporciona un filtro eficaz para las solicitudes basadas en el año.
+**3. Creación de Columna de Año:** Como parte de la transformación, se ha creado una nueva columna llamada "year_release". Mediante el uso de expresiones regulares, se ha extraído el año de la columna "release_date". Esta columna es crucial para los endpoints de la API y proporciona un filtro eficaz para las solicitudes basadas en el año.
 
 **4. Gestión de Valores Nulos:** Dado que los valores nulos en la columna "año_release_date" podrían afectar negativamente el funcionamiento de la API, se han eliminado de manera consciente. Esto garantiza que solo se consideren registros con años válidos al llamar a la API, previniendo resultados inesperados y errores en el procesamiento de datos.
 
